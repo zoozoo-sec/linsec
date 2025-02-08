@@ -42,7 +42,7 @@ class MyHandler(FileSystemEventHandler):
 observer = Observer()
 event_handler = MyHandler()
 
-observer.schedule(event_handler, path="/home/zoozoo", recursive=True)
+observer.schedule(event_handler, path="/home/user", recursive=True)
 
 observer.start()
 
