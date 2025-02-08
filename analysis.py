@@ -4,7 +4,7 @@ import re
 import sys
 from datetime import *
 import time
-genai.configure(api_key="AIzaSyADrq-OA_DK_OCYf5t6FC-ufAgziaYIzbI")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-flash", generation_config={
     "temperature": 0.2,
     "top_p": 0.3, 
