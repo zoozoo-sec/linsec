@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /root/new
-validated_files=("/home/zoozoo/test")
+validated_files=("/home/username/test")
 analyse="/root/new/suspects/"
 FIFO_FILE="/tmp/monitored_file"
 if [[ ! -p "$FIFO_FILE" ]]; then 
