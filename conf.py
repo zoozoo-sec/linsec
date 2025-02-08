@@ -3,13 +3,13 @@ py_path = r'/usr/bin/python'
 report_dir = r'./root/linux_reports'
 dash_lines = "-" * 40
 is_elf_file = False
-virustotal_key = "3ac3d5a1bb43d11a74b02bd0ab87db5cd74362c70e050f5b779a381872d85314"
+virustotal_key = ""
 
 host_analysis_vmpath = r'/root/virtual_machines/Ubuntu12_04/Ubuntu12_04.vmx'
 host_vmrunpath = r'/usr/bin/VBoxManage'
 host_vmtype = r'ubuntu'
-analysis_username = "osboxes"
-analysis_password = "osboxes.org"
+analysis_username = ""
+analysis_password = ""
 analysis_clean_snapname = "clean"
 analysis_mal_dir = r"/home/osboxes/analysis"
 analysis_py_path = r'/usr/bin/python'
